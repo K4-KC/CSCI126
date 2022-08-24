@@ -1,3 +1,6 @@
+clc
+clear
+
 disp('Find range of projectile (max_x) and the maximum height (max_y)')
 v = input('Enter initial velocity in m/s: ');
 angle = input('Enter angle in degrees: ');
