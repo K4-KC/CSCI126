@@ -11,6 +11,6 @@ x1 = (-b + d)/(2*a);
 x2 = (-b - d)/(2*a);
 
 disp("    X1        X2")
-disp([x1, x2])
+disp([x1 x2])
 
 disp('Kanva')
