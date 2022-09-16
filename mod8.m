@@ -13,7 +13,7 @@ end
 
 [max_r, max_i] = max(r);
 disp('  Max Range  Angle');
-disp([max_r, max_i-1]);
+disp([max_r, ang(max_i)]);
 
 plot(ang,r)
 grid on
