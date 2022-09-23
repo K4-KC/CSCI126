@@ -1,6 +1,6 @@
 clc 
 clear
-format long
+format long;
 
 d = input('Enter the denominator: ');
 
@@ -12,3 +12,5 @@ for i = 1:25
 end
 
 sum
+
+format;
