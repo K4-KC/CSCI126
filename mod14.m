@@ -31,7 +31,6 @@ grid on;
 title('Projectile Fired Towards a Cliff');
 xlabel('Angle of Projectile (degrees)');
 ylabel('Range (m)');
-ylim([0 90]);
 
 [max_r, max_i] = max(ranges);
 disp('  Max Range  Angle');
