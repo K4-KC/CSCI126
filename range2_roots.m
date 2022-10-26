@@ -1,4 +1,4 @@
-function r = range2(v, angle, s)
+function r = range2_roots(v, angle, s)
 %This function calculates the range of a projectile motion
 %Inputs are Velocity(m/s) and Angle(degrees) and height of cliff(meters)
 %range(v, angle, height)
