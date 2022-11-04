@@ -16,7 +16,10 @@ grid on;
 title("cos");
 
 subplot(3,1,3);
-plot(angles,S/C);
+%C(126) = 0;
+t=S./C;
+plot(angles,t);
 grid on;
 title("sin/cos");
-x_label("radians");
+xlabel("radians");
+ylim([-4,4]);
