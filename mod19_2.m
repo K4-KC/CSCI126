@@ -12,7 +12,7 @@ grid on;
 title("sin(2x)");
 
 subplot(2,1,2);
-plot(angles,2*S*C);
+plot(angles,2*S.*C);
 grid on;
 title("2sin(x)cos(x)");
-x_label("radians");
+xlabel("radians");
