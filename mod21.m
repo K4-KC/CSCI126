@@ -28,7 +28,7 @@ subplot(2,1,2);
 semilogx(w,angT, wx, angx, 'r.','MarkerSize', 10);
 legend('Theoretical','Experimental'); 
 xlabel('Frequency (rads/s');
-ylabel("|Vo/Vin|");
+ylabel("Angle");
 ylim([0,180]);
 grid on;
 
