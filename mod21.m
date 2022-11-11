@@ -27,7 +27,7 @@ grid on;
 subplot(2,1,2);
 semilogx(w,angT, wx, angx, 'r.','MarkerSize', 10);
 legend('Theoretical','Experimental'); 
-xlabel('Frequency (rads/s');
+xlabel('Frequency (rads/s)');
 ylabel("Angle");
 ylim([0,180]);
 grid on;
