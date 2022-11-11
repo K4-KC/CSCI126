@@ -20,7 +20,7 @@ angx = Module21data(3,:);
 subplot(2,1,1);
 semilogx(w,T, wx, Tx, 'r.','MarkerSize',10);
 legend('Theoretical','Experimental');
-title(['Tweeter R = ',num2str(R), '   L = ', num2str(L), '   C = ', num2str(C)]); 
+title(['Tweeter R =',num2str(R), ' \Omega', '   L = ', num2str(L),' H', '   C = ', num2str(C), ' F']); 
 ylabel("|Vo/Vin|");
 grid on;
 
